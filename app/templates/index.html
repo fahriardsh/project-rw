@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Agreement</title>
+</head>
+<body>
+    <h1>Generate Letter of Agreement</h1>
+    <form action="/generate" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="details">Details:</label>
+        <textarea id="details" name="details" required></textarea><br><br>
+
+        <button type="submit">Generate PDF</button>
+    </form>
+</body>
+</html>
